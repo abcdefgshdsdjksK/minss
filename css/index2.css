@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+/*版心设置*/
+
+.main {
+    width: 7.02rem;
+    margin: 0 auto;
+}
+
+.clearResult:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+body {
+    /*height: 9999px;*/
+    background: #fcfcfc;
+}
+
+.header {
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+
+.headerTop {
+    background: #fff;
+    border: 1px solid #f2f2f2;
+}
+
+.header .heaTop {
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: .29rem;
+    box-sizing: border-box;
+
+}
+
+.headerTop .inLeft {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+
+.headerTop .inLeft i {
+    font-size: .3rem;
+}
+
+.headerTop .inCentre img {
+    width: .92rem;
+    height: .3rem;
+}
+
+.headerTop .inRight {
+    width: .46rem;
+    height: 0.3rem;
+    padding-top: 0.11rem;
+}
+
+.headerTop .inRight p {
+    float: right;
+    width: .08rem;
+    height: .08rem;
+    background: #000;
+    margin-left: .06rem;
+    border-radius: 50%;
+}
+
+.headerBottom {
+    position: relative;
+    width: 7.5rem;
+    height: .88rem;
+    background: #ffffff;
+    border-bottom: .01rem solid #ffcb3f;
+}
+
+.tomsou {
+    position: absolute;
+    top: .1rem;
+    left: .33rem;
+    width: 6.04rem;
+    height: 0.6rem;
+    border-radius: 2rem;
+    border: solid .01rem #d9d9d9;
+
+    /*margin-left: 0.33rem;*/
+    /*margin-top: 0.08rem;*/
+}
+
+.tomsou input {
+    float: left;
+    width: 6.04rem;
+    height: 0.6rem;
+    border: .01rem solid #d9d9d9;
+    border-radius: 2rem;
+    padding-left: .56rem;
+    color: #000;
+    font-size: .24rem;
+    box-sizing: border-box;
+}
+
+.souI {
+    position: absolute;
+    top: 0.27rem;
+    left: 0.54rem;
+    width: .24rem;
+    height: .24rem;
+    line-height: .24rem;
+    text-align: center;
+}
+
+.souI i {
+    font-size: .24rem;
+    color: #d9d9d9;
+}
+
+.headerBottom a {
+    float: right;
+    line-height: .88rem;
+    margin-right: .34rem;
+}
+
+/*  longbo */
+.bana {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.banaleft {
+
+    width: 2rem;
+    height: 7.49rem;
+    /*position: fixed;*/
+    top: 1.78rem;
+    left: 0;
+}
+
+.banaleft ul {
+    width: 2rem;
+    height: 7.49rem;
+
+
+}
+
+.banaleft ul li {
+    float: left;
+    width: 2rem;
+    height: 1.04rem;
+    background-color: #f7f7f7;
+    margin-top: .03rem;
+    line-height: 1.04rem;
+    text-align: center;
+    color: #000000;
+}
+
+
+.banaleft ul li.kl {
+    width: 1.89rem;
+    border-left: .11rem solid #ffcb3f;
+    background-color: #fcfcfc;
+}
+
+
+.banaRight {
+    /*margin-top: 1.76rem;*/
+    width: 5.5rem;
+    height: 100%;
+
+}
+
+.banaimg {
+
+    width: 4.94rem;
+    margin: 0 auto;
+
+}
+
+.banaimg img {
+
+    width: 4.94rem;
+}
+
+.newArrive{
+    position: relative;
+    width: 100%;
+    height: .78rem;
+    line-height: .78rem;
+    text-align: center;
+    margin-top: .12rem;
+}
+
+.newArrive h3{
+    font-size: .32rem;
+    letter-spacing: 2px;
+    color: #010101;
+}
+
+
+.chair{
+    width: 4.94rem;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.chair .chairUl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.chair .chairUl li{
+    width: 1.62rem;
+    height: 2.05rem;
+    padding: .06rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.chairUl li .chairLi-img{
+    width: 1.50rem;
+    height: 1.42rem;
+}
+.chairLi-img img{
+    width: 100%;
+}
+
+
+.chairUl li{
+    float: left;
+    margin-bottom: .35rem;
+}
+.chairUl li .marc p{
+     margin-top: .28rem;
+    font-size: .22rem;
+    line-height: .20rem;
+    letter-spacing: .01rem;
+}
+
+.home{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*height: 98px;*/
+    background-color: #fafafa;
+    border: solid 1px #bfbfbf;
+    padding-top: 0.14rem;
+    box-sizing: border-box;
+
+}
+
+.home .homeUl{
+    display: flex;
+    justify-content:space-around;
+}
+
+.home .homeUl li{
+
+    width: 1.59rem;
+    height: .79rem;
+    text-align: center;
+    font-size: .24rem;
+}
+.homeUl li i{
+    font-size: .39rem;
+}
+.button-a1{
+    color: #ffcb3f;
+}
+
+.button-a1 a{
+    color: #ffcb3f;
+}
